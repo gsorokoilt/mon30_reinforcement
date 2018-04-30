@@ -9,13 +9,12 @@ strings = ["Totam", "ut", "odit","quis", "Maiores", "unde", "EX", "EST", "corpor
 
 strings.each do |word|
 
-  if word == word.downcase
-    p "lowercase"
-
-  word.length
   if word == word.downcase && word.length > 4
     p "long and lowercase"
-  end
+
+
+  elsif word == word.downcase
+    p "lowercase"
 
   elsif word.length > 4
         p "long"
